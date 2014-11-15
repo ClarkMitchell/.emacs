@@ -1,0 +1,56 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "trinity/")
+ ("/home/trinity/Documents/Github/AI/UWFAI.github.io/" . "img/")
+ ("/home/trinity/.emacs.d/elpa/" . "rainbow-delimiters-20141107.1253/")
+ ("/home/trinity/.emacs.d/" . "elpa/")
+ ("/home/trinity/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/trinity/.emacs.d/"
+ "/home/trinity/"
+ "/home/trinity/Documents/Github/AI/UWFAI.github.io/img/"
+ "/home/trinity/Documents/Github/AI/UWFAI.github.io/"
+ "/home/trinity/Documents/Github/AI/UWFAI.github.io/css/"
+ "/home/trinity/.emacs.d/elpa/rainbow-delimiters-20141107.1253/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ ".graphene-geometry"
+ ".Xresources"
+ "logoSmall.svg"
+ "logo.svg"
+ "index.html"
+ "landing-page.css"
+ "bootstrap.css"
+ "bootstrap.min.css"
+ "rainbow-delimiters.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/trinity/.emacs.d/" (21606 46071 142210 289000) "init.el" "smex-items" "ido.last" "auto-save-list/" "var/" "elpa/" "../" "#init.el#" ".graphene-geometry" "url/" "./")
+
+ ("/home/trinity/" (21606 38570 77014 515000) ".thumbnails/" ".intellij/" ".dbus/" ".bashrc" ".adobe/" ".emacs.d/" ".cache/" "Documents/" ".pki/" ".gnome/" ".gnupg/" ".emacs.d.pre-prelude.tar" ".local/" ".profile" ".fonts/" ".erc/" ".IntelliJIdea14/" ".watershed/" ".bash_prompt" ".mozilla/" ".emacs.d.tar.gz" ".Private/" ".bash_history" ".ssh/" ".java/" "../" "Desktop/" ".gitconfig" ".irssi/" ".android/" ".bash_logout" ".gconf/" ".gimp-2.8/" "Pictures/" "sbcl/" ".ICEauthority" ".ecryptfs/" "Downloads/" ".macromedia/" "./" ".Xresources" ".config/" ".cmus/")
+
+ ("/home/trinity/Documents/Github/AI/UWFAI.github.io/img/" (21604 65477 684860 521000) "logoSmall.svg" "AILabComputers-320x240.jpg" "triangles1.svg" "_MG_7914.jpg" "_MG_7915.jpg" "AIRobotFun-320x240.jpg" "_MG_7916.jpg" "_MG_7917.jpg" "logo.svg" "banner-bg.jpg" "intro-bg.jpg" "WordCloud.png" "_MG_7913.jpg" "triangles2.svg" "cor_2.jpg" "../" "_MG_7919.jpg" "UWFlogoSmall.png" "proj_2.jpg" "UWFlogo.png" "con_1.jpg" "./")
+
+ ("/home/trinity/Documents/Github/AI/UWFAI.github.io/" (21604 65011 990551 272000) "todo.md" "tutorial.md" "img/" "font-awesome-4.1.0/" "favicon.ico" "css/" "../" "index.html" ".git/" "LICENSE" "README.md" "js/" "fonts/" "./")
+
+ ("/home/trinity/Documents/Github/AI/UWFAI.github.io/css/" (21603 44036 631498 919000) "landing-page.css" "bootstrap.min.css" "bootstrap.css" "../" "./")
+
+ ("/home/trinity/.emacs.d/elpa/rainbow-delimiters-20141107.1253/" (21601 35407 546304 290000) "rainbow-delimiters-pkg.el" "rainbow-delimiters-pkg.elc" "rainbow-delimiters-autoloads.el" "rainbow-delimiters.elc" "../" "rainbow-delimiters.el" "./")
+
+ ("/home/trinity/.emacs.d/elpa/" (21601 35407 350303 290000) "graphene-20141030.219/" "pkg-info-20140610.630/" "web-mode-20141109.738/" "rainbow-delimiters-20141107.1253/" "moe-theme-20141106.125/" "archives/" "smartparens-20141107.1100/" "sr-speedbar-20141004.532/" "flycheck-20141102.652/" "dash-20141106.455/" "project-persist-20131030.1208/" "powerline-20140516.2128/" "exec-path-from-shell-20140731.907/" "epl-20140823.609/" "../" "gnupg/" "smex-20141027.245/" "neotree-20141006.649/" "company-20141108.1756/" "./")
+
+ ("/home/" (21599 47182 688812 616000) "trinity/" ".ecryptfs/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
