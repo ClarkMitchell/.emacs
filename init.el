@@ -155,8 +155,33 @@
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
 
-(provide 'init)
-(add-hook 'after-init-hook 'global-company-mode)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/moe-theme.el/")
+(add-to-list 'load-path "~/.emacs.d/moe-theme.el/")
+(require 'moe-theme)
+(moe-dark)
+(powerline-moe-theme)
+
+; python-mode
+(setq py-install-directory "~/.emacs.d/python-mode-6.0.11")
+(add-to-list 'load-path py-install-directory)
+(require 'python-mode)
+(require 'dash-at-point)
+; use IPython
+(setq-default py-shell-name "ipython")
+(setq-default py-which-bufname "IPython")
+                                        ; use the wx backend, for both mayavi and matplotlib
+(setq py-python-command-args
+      '("--gui=wx" "--pylab=wx" "-colors" "Linux"))
+(setq py-force-py-shell-name-p t)
+
+; switch to the interpreter after executing code
+(setq py-shell-switch-buffers-on-execute-p t)
+(setq py-switch-buffers-on-execute-p t)
+; don't split windows
+(setq py-split-windows-on-execute-p nil)
+                                        ; try to automagically figure out indentation
+(setq py-smart-indentation t)
+(add-to-list 'dash-at-point-mode-alist '(python-mode . "python"))
 ;; Local Variables:
 ;; coding: utf-8
 ;; no-byte-compile: t
