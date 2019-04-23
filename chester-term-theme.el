@@ -1,10 +1,10 @@
 (progn
-  (deftheme chester "A theme created with Koeeoadi")
-  (put 'chester 'theme-immediate t)
+  (deftheme chester-term "A theme created with Koeeoadi")
+  (put 'chester-term 'theme-immediate t)
   (font-lock-add-keywords
    'php-mode
    '(("\\<\\(\\sw+\\) ?(" 1 'font-lock-function-name-face)))
-  (custom-theme-set-faces 'chester
+  (custom-theme-set-faces 'chester-term
                           '(font-lock-string-face
                             ((t
                               (:foreground "#16c98d"))))
@@ -44,5 +44,5 @@
                           '(font-lock)
                           '(default
                              ((t
-                               (:foreground "#ffffff" :background "#2c3643")))))
-  (provide-theme 'chester))
+                               (:foreground "#ffffff" :background "#2d2e2f")))))
+  (provide-theme 'chester-term))
